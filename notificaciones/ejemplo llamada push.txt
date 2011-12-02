@@ -1,0 +1,14 @@
+pendientes pagatodo
+http://www.pagatodo.com/appiphone/savetoken.php?token=86f217161cd524d499a1ba24c37bb1b8a3340354d4cd9ffdbb465523a27f45b6
+url compartir
+
+http://www.smartthinking.com.mx/clientes/pagatodo/pagatodo-pushnotifications.php?token=7cd82f1a1578d499cfe097d399e24e1a1346f47e5c3f94656e361e6fdd6a1c38&message=Mensaje%20de%20Pagatodo&args=1
+
+http://www.smartthinking.com.mx/clientes/pagatodo/pagatodo-pushnotifications.php?token=86f217161cd524d499a1ba24c37bb1b8a3340354d4cd9ffdbb465523a27f45b6&message=Mensaje%20de%20Pagatodo&args=1
+
+token ipad
+86f217161cd524d499a1ba24c37bb1b8a3340354d4cd9ffdbb465523a27f45b6
+token iphone
+
+7cd82f1a1578d499cfe097d399e24e1a1346f47e5c3f94656e361e6fdd6a1c38
+http://www.pagatodo.com/pagatodo-pushnotifications.php?token=7cd82f1a1578d499cfe097d399e24e1a1346f47e5c3f94656e361e6fdd6a1c38&message=Mensaje%20de%20Pagatodo&args=1

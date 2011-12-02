@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="11C74" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Imagenes">
+        <attribute name="imagenBinario" optional="YES" attributeType="Binary"/>
+        <attribute name="imagenRuta" optional="YES" attributeType="String" indexed="YES"/>
+    </entity>
+    <entity name="Lista">
+        <attribute name="Id" optional="YES" attributeType="String"/>
+        <attribute name="Nombre" optional="YES" attributeType="String"/>
+        <attribute name="sincronizado" optional="YES" attributeType="String" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="ListaProducto">
+        <attribute name="Id" optional="YES" attributeType="String"/>
+        <attribute name="imagen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="Nombre" optional="YES" attributeType="String"/>
+        <attribute name="Producto" optional="YES" attributeType="String"/>
+        <attribute name="sincronizado" optional="YES" attributeType="String" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Monedero">
+        <attribute name="Numero" optional="YES" attributeType="String" indexed="YES"/>
+    </entity>
+    <entity name="NIP">
+        <attribute name="nip" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="URL">
+        <attribute name="fecha" optional="YES" attributeType="Date"/>
+        <attribute name="result" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String" indexed="YES"/>
+    </entity>
+    <elements>
+        <element name="Imagenes" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Lista" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="ListaProducto" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="Monedero" positionX="160" positionY="192" width="128" height="60"/>
+        <element name="NIP" positionX="160" positionY="192" width="128" height="60"/>
+        <element name="URL" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>
